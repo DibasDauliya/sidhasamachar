@@ -26,6 +26,14 @@
             border-bottom: 2.5px #ff0000 solid;
         }
 
+        footer{
+            background: linear-gradient(skyblue, steelblue);
+            border-top: 2.5px #ff0000 solid;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
         header h1{
             margin-bottom: 1rem;
             color: #fff;
@@ -73,14 +81,17 @@ main .container ul li{
     border-radius: 10px;
     padding: 0.7rem;
     box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.6);
+    transition: transform 200ms;
+    padding: 25px;
 }
 
 main .container ul li a{
     color: #333;
+    transition: transform 200ms;
 }
 
-main .container ul li a:hover{
-    transform: scale(1.1);
+main .container ul li a:hover, main .container ul li:hover{
+    transform: scale(1.04);
 }
 
 .read{
@@ -136,6 +147,10 @@ a{
             </ul>
         </div>
     </main>
+
+    <footer>
+        <p>Copyright &copy; <a href="https://sidhasamachar.com">Sidhasamachar</a> 2020. All Right Reserved.</p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #e4e4e4;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            background: linear-gradient(steelblue, skyblue);
+            border-bottom: 2.5px #ff0000 solid;
+        }
+
+        header h1{
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #333;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            transition: all 200ms ease;
+        }
+
+        .btn:hover {
+            color: #fff;
+            background: springgreen;
+            transform: scale(1.1);
+        }
+
+        .container{
+            min-width: 85%;
+            width: 0 auto;
+            padding: 1rem;
+        }
+
+
+main .container ul{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+main .container ul li{
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.7rem;
+    box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+main .container ul li a{
+    color: #333;
+}
+
+main .container ul li a:hover{
+    transform: scale(1.1);
+}
+
+.read{
+    color: red;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sidha Samachar</h1>
+        <a class="btn" href="https://sidhasamachar.com">View More News</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <ul>
+                <li><a href="https://www.sidhasamachar.com/523-2/">
+                    <img src="https://i0.wp.com/www.sidhasamachar.com/wp-content/uploads/2020/09/india-china.jpg?fit=412%2C275&ssl=1" alt="India china war">
+                    <h2>तोडियो संझौता : सिमानामा चल्यो गोली - Sidha Samachar</h2>
+                    <p>लामो समयदेखि भारत चीन सिमानामा चलिरहेको विवाद उत्सर्गमा पुगेको छ। भारत चीनको आपसी सम्झौता विपरित सीमामा ४५ वर्षपछि गोली चलेको छ। <a href="" class="read">Read More</a></p>
+                </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://i1.wp.com/www.sidhasamachar.com/wp-content/uploads/2020/09/xbox-series-s.png?fit=664%2C494&ssl=1" alt="">
+                        <h2>Xbox Series S confirmed by Microsoft. - Sidha Samachar</h2>
+                        <p>After many rumors Microsoft finally confirmed a $299 budget console named Xbox Series S (codenamed Lockhart). They posted about it on Xbox twitter account.</p> <a href="" class="read">Read More</a></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.sidhasamachar.com/%e0%a4%a6%e0%a4%b6%e0%a5%88%e0%a4%82%e0%a4%85%e0%a4%98%e0%a4%bf%e0%a4%a8%e0%a5%88-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%be-%e0%a4%97%e0%a4%b0%e0%a5%8d%e0%a4%a8%e0%a5%87/">
+                        <img src="https://i0.wp.com/www.sidhasamachar.com/wp-content/uploads/2020/08/maxresdefault.jpg?fit=1280%2C720&ssl=1" alt="">
+                        <h2>दशैंअघिनै परिक्षा गर्ने तयारीमा विश्वविद्यालय - Sidha Samachar</h2>
+                        <p>The universities of Nepal have stated that the suspended examinations will be conducted before Dashain even through alternative means. The vice-chancellors said that the examination will be conducted using online and other means including traditional ones.</p> <a href="" class="read">Read More</a></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

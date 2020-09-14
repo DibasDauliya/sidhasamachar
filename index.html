@@ -125,6 +125,7 @@ a{
 <body>
     <header>
         <h1>Sidha Samachar</h1>
+        <div class="view-more"><a class="btn" href="https://sidhasamachar.com">View More News</a>
     </header>
 
     
@@ -181,7 +182,6 @@ a{
         </div>
     </main>
 
-    <div class="view-more"><a class="btn" href="https://sidhasamachar.com">View More News</a>
     </div>
 
     <footer>
@@ -190,15 +190,7 @@ a{
 
 
     <script>
-        function truncate(str, n) {
-        return str?.length > n ? str.substr(0, n - 1) + " ..." : str;
-        }
-      
-        const desc = document.querySelectorAll("ul li a > .desc");
-        desc.forEach(function (task) {
-            const replace = truncate(task.innerHTML, 150);
-        task.innerHTML = replace;
-        })
+        
       
           </script>
 </body>
